@@ -1,5 +1,19 @@
-env GIT_TERMINAL_PROMPT=1 go get github.com/examplesite/myprivaterepo
+Descriere proiect
 
+Autor: Moglan Andrei
 
+Cerinte:
+1. Afisarea vremii.
+2. Afisarea vremii prentru o saptamana.
 
-TESTE
+Functionare: Apelarea unui API de vreme, si interpretarea acestuia intr-un mod cat mai friendly pentru utilizator.
+
+UX: 
+
+Workflow - liber pentru orice individ.
+
+Integrare cu alte limbaje/ sisteme:
+
+Limbaje folosite: JavaScript, HTML5+CSS
+Cum face aplicatia viata mea mai buna: Ofera utilizatorilor posibilitatea de a verifica vremea pe o saptamana in orice oras/zona doreste, indiferent de 
+platforma pe care o utilizeaza. Scopul de a fi o aplicatie Web, permite utilizatorului sa o acceseze si dupa desktop si dupa mobile.
