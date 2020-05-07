@@ -11,12 +11,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "angoose": "^0.3.21",
     "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "core-util-is": "^1.0.2",
     "ejs": "^3.1.2",
     "express": "^4.17.1",
     "express-ejs-layouts": "^2.5.0",
     "express-layouts": "^1.0.0",
     "express-routes": "0.0.2",
+    "express-session": "^1.17.1",
+    "mongodb": "^3.5.7",
     "mongoose": "^5.9.12",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0"
