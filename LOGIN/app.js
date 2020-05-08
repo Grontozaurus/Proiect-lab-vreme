@@ -19,6 +19,8 @@ db.on('error', err => {
 })
 
 
+
+
 //EJS
 
 app.use(expressLayouts);
@@ -26,6 +28,7 @@ app.set('view engine', 'ejs');
 
 //Bodyparser
 app.use(express.urlencoded({extended:false}));
+app.use('/static', express.static(__dirname + '/resources'));
 
 
 //Express-session

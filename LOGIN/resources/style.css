@@ -120,8 +120,6 @@
       .amber.lighten-3 {
         background-color: #FFC312 !important;
     }
-
-    .welcome,
     .welcome1{
       text-align: center;
       color: white; 
@@ -137,6 +135,18 @@
       /* transform: translate(-50%); */
     }
 
+.logout{
+  text-align: center;
+      color: white; 
+      background-color: black;
+      padding: 12px; 
+      font-weight: bolder;
+      font-size:30px;
+      /* left:50%;   */
+      margin-top: 11%; 
+      margin-right: auto; 
+}
+
     .welcome1{
      margin-left:15px;
       
@@ -149,4 +159,8 @@
 
     .content{
       padding-top:11%!important;
+    }
+
+    .center{
+      text-align: center;
     }
