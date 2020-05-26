@@ -4,7 +4,8 @@ const expressLayouts = require('express-ejs-layouts');
 const mongoose = require('mongoose');
 const flash = require('connect-flash');
 const session = require('express-session');
-const passport = require('passport')
+const passport = require('passport');
+const bodyParser = require('body-parser')
 
 require('./config/passport')(passport);
 const url = 'mongodb://127.0.0.1:27017/users'
@@ -28,7 +29,11 @@ app.set('view engine', 'ejs');
 
 //Bodyparser
 app.use(express.urlencoded({extended:false}));
+// app.use(express.bodyParser.json());
+// app.use(bodyParser.json());
+app.use(express.json());
 app.use('/static', express.static(__dirname + '/resources'));
+
 
 
 //Express-session
