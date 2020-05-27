@@ -6,6 +6,7 @@ const api = {
 const searchbox = document.querySelector('.search-box');
 searchbox.addEventListener('keypress', setQuery);
 
+
 function setQuery(evt) {
     if (evt.keyCode == 13) {
         getResults(searchbox.value);
@@ -41,9 +42,6 @@ function displayResults (weather){
 
     let weather_el = document.querySelector('.weather');
     weather_el.innerText = weather.weather[0].main;
-
-
-
 
 }
 
