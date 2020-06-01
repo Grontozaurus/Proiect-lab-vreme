@@ -4,13 +4,13 @@ Autor: Moglan Andrei
 
 Cerinte:
 1. Afisarea vremii.
-2. Afisarea vremii prentru o saptamana.
+
 
 Functionare: Apelarea unui API de vreme, si interpretarea acestuia intr-un mod cat mai friendly pentru utilizator.
 
-UX: 
+UX - liber pentru orice individ.
 
-Workflow - liber pentru orice individ.
+Workflow 
 
 Integrare cu alte limbaje/ sisteme:
 
